@@ -21,7 +21,7 @@ public class SingletonSynchronizedBlock {
 	 * @return
 	 */
 	public static SingletonSynchronizedBlock getInstance() {
-		// Memory optimization with result object as it will not return value from main
+		// Memory optimization with result object as it will not return value from main memory 
 		// memory(volatile) if instance is already initialized
 		SingletonSynchronizedBlock result = instance;
 
